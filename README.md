@@ -28,6 +28,20 @@ Total: 13 dollars(approximate)
 5. Then, based on the inputs, the ESP32 turns the relay on or off.
 6. Finally, the output of the relay goes to the female connector of the extension cord where the battery charger can be plugged in.
 
+# How it works - Web app
+![Screenshot from 2024-07-24 14-50-42](https://github.com/user-attachments/assets/e7adf33e-bec4-403e-a3ad-9b35e89f491e)
+![Screenshot from 2024-07-24 14-51-41](https://github.com/user-attachments/assets/94a81152-6510-4302-8612-a6f85d9f7b2a)
+
+1. The e- safe app  first asks the ESP32 for the value from the temperature and voltage sensors.
+2. Based on these inputs the ESP decides the state of the relay -  if it is on or off. If it is on, its charging else, its not.
+3. The app displays the temperature and based on the state of the relay, it displays whether it is currently charging or stopped
+4. The green button tells the ESP32 to change the state of the relay turning the relay on or off. Once pressed, the button turns red and has different text. 
+
+# Presentation and Poster Links:
+https://docs.google.com/presentation/d/1ag3dtNzHqOU7Nol9aGwX6iRKKu9hUqkFr-nJTckO5vc/edit#slide=id.g2703fdad717_0_181
+https://docs.google.com/presentation/d/1rj1jq7bTPCQjz--uucjNxwSHfUO89c8W/edit#slide=id.p1
+
+
 
 
 
